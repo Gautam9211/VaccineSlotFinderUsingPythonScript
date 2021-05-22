@@ -1,3 +1,7 @@
+#note: install the package ::: request,json,plyer,beepy,smtplib,email using pip install {package name} before running this script.
+# i have assigned haridwar district id , u can assign your own. and mentioned your email to get the email in your email id.
+#this script will automatically  run again and again in 30sec after executing once.
+#
 import time, threading
 StartTime=time.time()
 def action():
